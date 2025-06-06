@@ -8,15 +8,17 @@ Git is useful for keeping everyone up to date with every change easily and effic
 
 ### 3. Define the following terms in relation to Git. Repository, Branch, Merge, Pull, Push,
 - Repository - A collection of information and files, uploaded to GitHub.
-- Branch - A seperate line of the repository, usually having atleast two seperate branches for developing and final.
+- Branch - A separate line of the repository, usually having at least two separate branches for developing and final.
 - Merge - To bring the contents of another branch into the current branch.
 - Pull - To download changes to the remote repo to your local version.
 - Push - To upload local changes to a remote repository.
 
 ### 4.	If you are working at a company, which of their policies and procedures might relate to using version control systems such as Git. 
-
+The company's policies revolving data retention and data protection may enforce using version control such as Git to store files. More specifically to the gaming environment, most companies would have policies to ensure you keep all of your work updated and saved on some sort of version control tool.
 
 ### 5.	Merge conflicts can occur while using git. List merge tools or diff tools you can use to help you merge and deal with conflicts. 
+- Visual Studio - Inside visual studio, there are tools to fix merge conflicts involving scripts where you can choose what to keep or delete, and also choose if you need to reset or revert at any point.
+- GitHub Desktop - Inside GitHub Desktop are similar tools allowing you to manage the repository and look at all files that have merge conflicts, and allowing you to choose what you need to keep or change.
 
 ### 6.	In a merged source code file, how does Git let you know there is a conflict? 
 It will show arrows pointing to and separating the two conflicting lines of code.
@@ -31,7 +33,7 @@ If you encounter a problem with your code after your last commit specifically, y
 
 ### 9.	What does git reset do, and how can you use it?
 "git reset" is used to change the current head back to a certain commit in the timeline of changes. If you have multiple commits recently that seem to be
-affecting the code negatively and you arent sure where the problems lie, you can use "git reset" to go back multiple commits.
+affecting the code negatively and you aren't sure where the problems lie, you can use "git reset" to go back multiple commits.
 
 ### 10.	What is the difference between git revert and git reset? 
 "git revert" is used for inversing changes, and "git reset" is used for going back to before the changes.
@@ -44,10 +46,13 @@ affecting the code negatively and you arent sure where the problems lie, you can
 
 ### 13.	Describe what is DevOps, how is it useful for game developers? 
 DevOps is a set of practices that encourage and support communication and teamwork among teams working on a project. It is useful for keeping everybody
-up-to-date and keeping a steady, productive workflow. Specifically with game developers, this means communication and effciency among all seperate 
+up-to-date and keeping a steady, productive workflow. Specifically with game developers, this means communication and efficiency among all separate 
 departments.
 
 ### 14.	List what tools can be used with DevOps. Give a brief description of each one. (at least 3)
+- (Plan) Trello - Trello is an online tool that allows teams to organise and keep track of any task that needs to be done. Each task can be assigned to specific people and overlooked by higher management.
+- (Test) Veracode - Veracode is a program that allows organisations to test their code rigorously through multiple different formats and algorithms.
+- (Continuous Feedback) Slack - Slack is primarily a communication tool for the organisation themselves, but can also be connected to websites like SurveyMonkey to allow customers to give their feedback to the team.
 
 
 ### 15.	What is CI/CD and how can it be used to automate the game development process? 
